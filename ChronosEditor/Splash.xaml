@@ -1,0 +1,16 @@
+﻿<Window x:Name="wSplash" x:Class="ChronosEditor.Splash"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChronosEditor"
+        mc:Ignorable="d"
+        Title="Chronos Editor" Height="500" Width="700" WindowStyle="None" ResizeMode="NoResize" Loaded="wSplash_Loaded">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush x:Name="ibLogo" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Label x:Name="lbInfo" Content="" HorizontalAlignment="Left" Margin="144,117,0,0" VerticalAlignment="Top" Width="196"/>
+
+    </Grid>
+</Window>

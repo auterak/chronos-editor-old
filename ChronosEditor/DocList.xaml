@@ -1,0 +1,14 @@
+﻿<Window x:Class="ChronosEditor.DocList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChronosEditor"
+        mc:Ignorable="d"
+        Title="DocList" Height="300" Width="300" ResizeMode="NoResize" Loaded="Window_Loaded" WindowStyle="ToolWindow">
+    <Grid>
+        <DataGrid x:Name="dgDocList" ItemsSource="{Binding}" HorizontalAlignment="Left" Height="226" VerticalAlignment="Top" Width="292" SelectionChanged="dgDocList_SelectionChanged"/>
+        <Button x:Name="btnNewDoc" Content="Nový dokument" HorizontalAlignment="Left" Margin="178,231,0,0" VerticalAlignment="Top" Width="104" Height="28" Click="btnNewDoc_Click"/>
+        <Button x:Name="btnAdminMode" Content="Režim admina" HorizontalAlignment="Left" Margin="69,231,0,0" VerticalAlignment="Top" Width="104" Height="28" Click="btnAdminMode_Click"/>
+    </Grid>
+</Window>

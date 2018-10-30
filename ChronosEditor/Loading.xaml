@@ -1,0 +1,14 @@
+﻿<Window x:Class="ChronosEditor.Loading"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChronosEditor"
+        mc:Ignorable="d"
+        Title="Loading" Height="46.821" Width="308.671" ResizeMode="NoResize" WindowStyle="None">
+    <Grid Loaded="Grid_Loaded">
+        <ProgressBar HorizontalAlignment="Left" Height="26" Margin="10,10,0,0" VerticalAlignment="Top" Width="280" IsIndeterminate="True"/>
+        <Label Content="Prosím počkejte, načítá se schéma" HorizontalAlignment="Left" Margin="54,10,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
